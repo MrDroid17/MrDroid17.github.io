@@ -48,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida males
 
 ## some funky tricks
 
-[![](https://picsum.photos/50/50/?image=500 alt="click to see larger image")](https://picsum.photos/500/500/?image=500)
+[![](https://picsum.photos/50/50/?image=500 "click to see larger image")](https://picsum.photos/500/500/?image=500)
 
 [<img src="https://picsum.photos/50/50/?image=500" >](https://picsum.photos/500/500/?image=500)
 
@@ -91,6 +91,7 @@ He is demigod of wind and sea.
 something
 
 ---
+
 
 ## Quote block:
 
