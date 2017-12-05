@@ -138,7 +138,7 @@ var x=100;
 |bear|12|male|German Shephard|
 |snowy|04|male|terrier|
 
-![](/home/mrdroid/Pictures/rachel_mcadams_face_actress_black_and_white.jpg)
+![](rachel_mcadams_face_actress_black_and_white.jpg)
 
 
 
