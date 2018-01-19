@@ -1,0 +1,16 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# mSudoku
+- project: mSudoku
+  role: Developer
+  duration:  June 2017 &mdash; Present
+  url: "https://play.google.com/store/apps/details?id=com.kumar.mrdroid.msudoku"
+  description: mSudoku is an intuitive, touchscreen game board that’s easy and fun to play. The objective is to fill a 9x9 grid with 1 to 9 digits without having any conflict in any of the rows, columns, and 3x3 grid regions.
+
+#BhagwadGita
+- project: BhagwadGita
+  role: Developer
+  duration: April 2017
+  url: "https://play.google.com/store/apps/details?id=app.mycompany.kumar_lazy.bhagavadgita"
+  description: The Bhagavad Gita is a 700-verse( old manuscripts considered to have 745 verses) hindu scripture in Sanskrit that is part of the Hindu epic Mahabharata.The Gita is set in a narrative framework of a dialogue between Pandava prince Arjuna and his guide and charioteer Lord Krishna.
