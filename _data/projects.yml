@@ -14,3 +14,28 @@
   duration: April 2017
   url: "https://play.google.com/store/apps/details?id=app.mycompany.kumar_lazy.bhagavadgita"
   description: The Bhagavad Gita is a 700-verse( old manuscripts considered to have 745 verses) hindu scripture in Sanskrit that is part of the Hindu epic Mahabharata.The Gita is set in a narrative framework of a dialogue between Pandava prince Arjuna and his guide and charioteer Lord Krishna.
+
+#AdminStudentPanel
+- project: AdminStudentPanel
+  url: "https://github.com/MrDroid17/AdminStudentPanel"
+  description: Admin and Student Login/Register System. Admin can generate Authentication keys, which will be required by student during registration process to create there User_id and Password.
+
+#MyPetsApp
+- project: MyPetsApp
+  url: "https://github.com/MrDroid17/MyPetsApp"
+  description: This app records and maintain the pets details like name, breed, gender and weight. It uses persistent storage using SQLite database.
+
+#BoardingPassDesign
+- project: BoardingPassDesign
+  url: "https://github.com/MrDroid17/BoardingPassDesign"
+  description: This App imitates online Boarding Pass System. Real time data can be bind with Views by using Data-binding library. This is a Responsive design.
+
+#Google Maps And Location Services Repos
+- project: Google Maps And Location Services Repos
+  url: "https://github.com/MrDroid17/GoogleMapsAndLocationServices"
+  description: This Repository contains a number of Demo Apps that explore Android feature like Google Maps, Location Services, Geo fencing, Activity Recognition APIs, Map types, Flying Effect, Location Marking, StreetView, location coordinate fetching. 
+
+#Canvas Repos
+- project: Android Canvas Repos
+  url: "https://github.com/MrDroid17/DrawUsingAndroidCanvas"
+  description: This Repos contains projects that explore canvas and bitmap feature of Android. 
