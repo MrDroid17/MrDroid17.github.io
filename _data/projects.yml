@@ -1,41 +1,51 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+#mChat App
+- project: mChat App
+  platform: Android and Firebase App
+  url: "https://github.com/MrDroid17/mChatApp"
+  description: mChat is a Chatbox App which uses various feature of Firebase i.e. Realtime Database, Storage, Authentication, Push Notification, Remote-Config, Cloud-function. Also uses JavaScript for function, nodeJS, Firebase CLI for server-Side.
+
+# Token Based Authentication
+- project: Token Based Authentication With NodeJS
+  platform: Web App
+  url: "https://github.com/MrDroid17/NodeJSTokenBasedAuthentication"
+  description: This Repo deals with Token Based Authentication by using JavaScript, NodeJS, MongoDB, Postman, Express, Morgan, JsonWebToken etc.
+
 # mSudoku
 - project: mSudoku
-  role: Developer
-  duration:  June 2017 &mdash; Present
+  platform: Android App
   url: "https://play.google.com/store/apps/details?id=com.kumar.mrdroid.msudoku"
   description: mSudoku is an intuitive, touchscreen game board that’s easy and fun to play. The objective is to fill a 9x9 grid with 1 to 9 digits without having any conflict in any of the rows, columns, and 3x3 grid regions.
 
 #BhagwadGita
 - project: BhagwadGita
-  role: Developer
-  duration: April 2017
+  platform: Android App
   url: "https://play.google.com/store/apps/details?id=app.mycompany.kumar_lazy.bhagavadgita"
   description: The Bhagavad Gita is a 700-verse( old manuscripts considered to have 745 verses) hindu scripture in Sanskrit that is part of the Hindu epic Mahabharata.The Gita is set in a narrative framework of a dialogue between Pandava prince Arjuna and his guide and charioteer Lord Krishna.
 
 #AdminStudentPanel
 - project: AdminStudentPanel
+  platform: Android App
   url: "https://github.com/MrDroid17/AdminStudentPanel"
   description: Admin and Student Login/Register System. Admin can generate Authentication keys, which will be required by student during registration process to create there User_id and Password.
 
 #MyPetsApp
 - project: MyPetsApp
+  platform: Android App
   url: "https://github.com/MrDroid17/MyPetsApp"
   description: This app records and maintain the pets details like name, breed, gender and weight. It uses persistent storage using SQLite database.
 
 #BoardingPassDesign
 - project: BoardingPassDesign
+  platform: Android App
   url: "https://github.com/MrDroid17/BoardingPassDesign"
   description: This App imitates online Boarding Pass System. Real time data can be bind with Views by using Data-binding library. This is a Responsive design.
 
 #Google Maps And Location Services Repos
 - project: Google Maps And Location Services Repos
+  platform: Repository of Android Apps
   url: "https://github.com/MrDroid17/GoogleMapsAndLocationServices"
   description: This Repository contains a number of Demo Apps that explore Android feature like Google Maps, Location Services, Geo fencing, Activity Recognition APIs, Map types, Flying Effect, Location Marking, StreetView, location coordinate fetching. 
 
-#Canvas Repos
-- project: Android Canvas Repos
-  url: "https://github.com/MrDroid17/DrawUsingAndroidCanvas"
-  description: This Repos contains projects that explore canvas and bitmap feature of Android. 
