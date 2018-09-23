@@ -13,7 +13,7 @@
 
             <!-- You can turn off the avatar in _config.yml by setting to false -->
             {% if site.resume_avatar == 'true' %}
-            <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image"> {% endif %}
+            <img src="images/avatar.jpg" alt="my photo" width="150px" height="150px" class="avatar no-print" itemprop="image"> {% endif %}
 
             <!-- Your name is defined in the _config.yml file -->
             <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
@@ -45,31 +45,8 @@
         </header>
 
 
-        {% if site.resume_section_experience %}
-        <!-- begin Experience -->
-
-        <section class="content-section">
-
-            <header class="section-header">
-                <h2>Experience</h2>
-            </header>
-
-            {% for job in site.data.experience %}
-            <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-                <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-                <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-                <p class="resume-item-copy">{{ job.summary }}</p>
-            </div>
-            {% endfor %}
-
-        </section>
-
-        <!-- end Experience
-      {% endif %}
-
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
+        {% if site.resume_section_education %}
+        <!-- begin Education -->
         <section class="content-section">
             <header class="section-header">
                 <h2>Education</h2>
@@ -122,11 +99,34 @@
 
         </section>
         <!-- end Skills -->
+
+        {% if site.resume_section_experience %}
+        <!-- begin Experience -->
+
+        <section class="content-section">
+
+            <header class="section-header">
+                <h2>Experience</h2>
+            </header>
+
+            {% for job in site.data.experience %}
+            <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+                <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+                <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+                <p class="resume-item-copy">{{ job.summary }}</p>
+            </div>
+            {% endfor %}
+
+        </section>
+
+        <!-- end Experience
+      {% endif %}
+
         {% endif %} {% if site.resume_section_projects %}
         <!-- begin Projects -->
         <section class="content-section">
             <header class="section-header">
-                <h2> Android and Web Projects</h2>
+                <h2> Android and Web Projects (Self)</h2>
             </header>
 
             {% for project in site.data.projects %}
